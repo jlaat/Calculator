@@ -1,0 +1,25 @@
+.display {
+    background-color: white;
+    flex-basis: 50px;
+    text-align: end;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 15px;
+}
+.calculatorContainer {
+    background-color: dimgrey;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 30px;
+    width: 40vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+.buttonContainer {
+    display: grid;
+    flex: auto;
+    gap: 15px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
